@@ -1,7 +1,7 @@
 {
-  "name": "easy-log",
-  "displayName": "easy-log",
-  "description": "easy-log for VS Code",
+  "name": "easy-log-js",
+  "displayName": "Easy Log",
+  "description": "fast & easy console.logs",
   "version": "0.0.1",
   "publisher": "EylonShmilovich",
   "repository": "https://github.com/eylonshm/easyLog",
