@@ -8,7 +8,7 @@ Just select a variable and use the keyboard shortcut to quickly create a log of 
 
 ![demo](demo.gif)
 
-## How to use
+## How to use (Installation)
 
 You can customize the keyboard shortcut for using this extension according to your preferences. Here's how:
 
