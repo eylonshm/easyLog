@@ -1,11 +1,7 @@
-# easy-log Sample
+# easyLog
 
-This is a easy-log example that shows you how to use VS Code API.
+An easy to use Vscode extension, which provides a faster way to create logs
 
 ## Demo
 
 ![demo](demo.gif)
-
-## VS Code API
-
-### `vscode` module
