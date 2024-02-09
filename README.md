@@ -20,5 +20,4 @@ You can customize the keyboard shortcut for using this extension according to yo
 8. Press `Enter` to confirm.
 
 That's it! You've customized the keyboard shortcut for using this extension.
-
 Now all you need to do is select a text and use the new keyboard shortcut to create logs
