@@ -21,3 +21,17 @@ You can customize the keyboard shortcut for using this extension according to yo
 
 That's it! You've customized the keyboard shortcut for using this extension.
 Now all you need to do is select a text and use the new keyboard shortcut to create logs
+
+## Configuration Options
+
+You can customize the sign used in the log message by modifying the extension settings:
+
+1. Open Visual Studio Code.
+2. Go to `File` > `Preferences` > `Settings`, or press `Ctrl + ,`.
+3. Search for "Easy Log Sign" in the search bar.
+4. Choose your desired sign from the dropdown menu:
+   - Arrow (=>)
+   - Colon (:)
+   - None (No sign)
+
+Additionally, you can specify the log type (log, warn, error) by selecting the appropriate option from the "Easy Log Type" dropdown menu.

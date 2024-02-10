@@ -2,7 +2,7 @@
   "name": "easy-log-js",
   "displayName": "Easy Log",
   "description": "fast & easy console.logs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "EylonShmilovich",
   "repository": "https://github.com/eylonshm/easyLog",
   "icon": "logo.png",
@@ -20,7 +20,40 @@
         "command": "extension.easy-log",
         "title": "Log Selected Text"
       }
-    ]
+    ],
+    "configuration": {
+      "type": "object",
+      "properties": {
+        "extension.easyLogType": {
+          "type": "string",
+          "default": "log",
+          "enum": [
+            "log",
+            "warn",
+            "error"
+          ],
+          "enumDescriptions": [
+            "Log",
+            "Warn",
+            "Error"
+          ]
+        },
+        "extension.easyLogSign": {
+          "type": "string",
+          "default": " =>",
+          "enum": [
+            " =>",
+            ":",
+            ""
+          ],
+          "enumDescriptions": [
+            "Arrow (=>)",
+            "Colon (:)",
+            "None"
+          ]
+        }
+      }
+    }
   },
   "scripts": {
     "vscode:prepublish": "npm run compile",
